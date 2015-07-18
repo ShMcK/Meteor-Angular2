@@ -28,10 +28,10 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use(["mike:mocha-package", "practicalmeteor:chai"]);
+  api.use(["netanelgilad:angular2-typescript", "mike:mocha-package", "practicalmeteor:chai"]);
   api.use("shmck:angular2");
 
-  api.addFiles("tests/client/index.js", ["client"]);
+  api.addFiles("tests/client/app.js", ["client"]);
 
 });
   

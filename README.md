@@ -5,6 +5,7 @@ Angular2 package for Meteor.
 ## Installation
 
 ```
+    meteor add netanelgilad:angular2-typescript
     meteor add shmck:angular2
 ```
 
