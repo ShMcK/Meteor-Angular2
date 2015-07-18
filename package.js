@@ -31,7 +31,7 @@ Package.onTest(function (api) {
   api.use(["netanelgilad:angular2-typescript", "mike:mocha-package", "practicalmeteor:chai"]);
   api.use("shmck:angular2");
 
-  api.addFiles("tests/client/app.js", ["client"]);
+  api.addFiles("tests/client/app.ts", ["client"]);
 
 });
   
