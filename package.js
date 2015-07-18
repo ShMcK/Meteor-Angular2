@@ -1,7 +1,7 @@
 Package.describe({
   name: "shmck:angular2",
   summary: "Sets up the latest version of Angular 2",
-  version: "0.1.0",
+  version: "2.0.0-alpha.31",
   git: "https://github.com/ShMcK/meteor-angular2",
   documentation: "README.md"
 });
