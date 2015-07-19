@@ -15,11 +15,11 @@ Package.registerBuildPlugin({
 
 Package.onUse(function (api) {
   api.versionsFrom("1.0.1");
-  api.use(["meteor", "ddp"]); //jquery
+  api.use(["meteor", "ddp"]);
 
   api.addFiles([
     'lib/traceur-runtime.min.js',
-    'lib/es6-module-loader.js',
+    'lib/es6-module-loader.js', // 16.6
     'lib/system.js',
     "lib/angular@2.0.0-alpha.31.dev.js"
     // contains angular, reflect-metadata, rtts_assert, rx, zone.js, System.config
