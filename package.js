@@ -21,7 +21,6 @@ Package.onUse(function (api) {
     'lib/traceur-runtime.js',
     'lib/es6-module-loader@0.16.5.js',
     'lib/system@0.16.7.js',
-
     "lib/angular@2.0.0-alpha.31.dev.js" //
     // contains angular, reflect-metadata, rtts_assert, rx, zone.js, System.config
     ], ["client"]);
@@ -30,7 +29,6 @@ Package.onUse(function (api) {
 Package.onTest(function (api) {
   api.use(["netanelgilad:angular2-typescript", "mike:mocha-package", "practicalmeteor:chai"]);
   api.use("shmck:angular2");
-
   api.addFiles("tests/client/app.ts", ["client"]);
 
 });

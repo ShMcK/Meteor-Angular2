@@ -2,13 +2,15 @@
 
 Angular2 package for Meteor. 
 
+##### Version: alpha-31
+
 ## Installation
 
-```
     meteor add netanelgilad:angular2-typescript
     meteor add shmck:angular2
-```
 
-## Description
+In your index.html, set up system.js.
 
-Version: alpha-31
+    <body>
+      <script>System.import('client/app');</script>
+    </body>
