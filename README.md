@@ -4,6 +4,10 @@ Angular2 package for Meteor.
 
 ##### Version: alpha-32
 
+## Tutorial
+
+A [10 step tutorial](http://angular-meteor.com/tutorials/angular2/bootstrapping) can be found on the Angular-Meteor site.
+
 ## Installation
     
     meteor add shmck:angular2

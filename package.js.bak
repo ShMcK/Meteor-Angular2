@@ -1,7 +1,7 @@
 Package.describe({
   name: "shmck:angular2",
   summary: "Angular 2 packaged for Meteor. Alpha-32.",
-    version: '2.0.1-alpha',
+    version: '2.0.0-alpha.32',
   git: "https://github.com/ShMcK/meteor-angular2",
   documentation: "README.md"
 });
