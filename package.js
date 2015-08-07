@@ -1,7 +1,7 @@
 Package.describe({
   name: "shmck:angular2",
-  summary: "Angular 2 packaged for Meteor. Alpha-33.",
-    version: '2.0.1',
+  summary: "Angular 2 packaged for Meteor. Alpha-34.",
+    version: '2.0.2',
   git: "https://github.com/ShMcK/meteor-angular2",
   documentation: "README.md"
 });
@@ -21,7 +21,7 @@ Package.onUse(function (api) {
     'lib/traceur-runtime.min.js',
     'lib/es6-module-loader.js', // 16.6
     'lib/system.js',
-    "lib/angular2.dev.js"
+    "lib/angular2.dev.min.js"
     // contains angular, reflect-metadata, rtts_assert, rx, zone.js, System.config
     ], ["client"]);
 });
