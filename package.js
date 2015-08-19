@@ -1,7 +1,7 @@
 Package.describe({
   name: "shmck:angular2",
-  summary: "Angular 2 packaged for Meteor. Alpha-34.",
-    version: '2.0.2',
+  summary: "Angular 2 packaged for Meteor. Alpha-35.",
+    version: '2.0.3',
   git: "https://github.com/ShMcK/meteor-angular2",
   documentation: "README.md"
 });
@@ -15,7 +15,7 @@ Package.registerBuildPlugin({
 
 Package.onUse(function (api) {
   api.versionsFrom("1.0.1");
-  api.use(["meteor", "ddp"]);
+  api.use(["meteor"]);
 
   api.addFiles([
     'lib/traceur-runtime.min.js',
@@ -27,10 +27,20 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use(["netanelgilad:angular2-typescript", "mike:mocha-package", "practicalmeteor:chai"]);
+  api.use('sanjo:jasmine@0.13.6');
+  api.use(["meteor", "netanelgilad:angular2-typescript"]);
   api.use("shmck:angular2");
-  api.addFiles("tests/client/app.ts", ["client"]);
 
+  // specs
+  api.addFiles([
+    'tests/tests.spec.js'
+  ], 'client')
+
+  // app to test
+  api.addFiles([
+    "tests/client/index.html",
+    "tests/client/app.ts"
+  ], "client");
 });
   
   
