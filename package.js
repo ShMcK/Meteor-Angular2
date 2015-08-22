@@ -1,7 +1,7 @@
 Package.describe({
   name: "shmck:angular2",
   summary: "Angular 2 packaged for Meteor. Alpha-35.",
-    version: '2.0.3',
+    version: '2.0.4',
   git: "https://github.com/ShMcK/meteor-angular2",
   documentation: "README.md"
 });
@@ -29,12 +29,11 @@ Package.onUse(function (api) {
 Package.onTest(function (api) {
   api.use('sanjo:jasmine@0.13.6');
   api.use(["meteor", "netanelgilad:angular2-typescript"]);
-  api.use("shmck:angular2");
 
   // specs
   api.addFiles([
     'tests/tests.spec.js'
-  ], 'client')
+  ], 'client');
 
   // app to test
   api.addFiles([
