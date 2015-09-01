@@ -2,7 +2,7 @@
 
 Angular2 package for Meteor. 
 
-##### Version: alpha-35
+##### Version: alpha-36
 
 ## Tutorial
 
