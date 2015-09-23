@@ -1,3 +1,5 @@
+**Deprecated: use [urigo:meteor-angular2](https://github.com/Urigo/Meteor-Angular2) instead.**
+
 # shmck:angular2
 
 Angular2 package for Meteor. 
